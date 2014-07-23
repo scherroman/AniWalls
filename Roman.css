@@ -1,0 +1,132 @@
+body {
+	background-color: #003333;
+}
+/*General layout for blocks*/
+.Block {			
+	height: 200px;
+	width: 356px;
+	background-color: #8A0829;
+	border-radius: 50px;
+	font-family: fantasy;
+	font-size: 40px;
+	line-height: 100px;
+	text-transform: uppercase;
+	padding-bottom:50px;
+	-webkit-transition: all 800ms ease;
+	-moz-transition: all 800ms ease;
+	-ms-transition: all 800ms ease;
+	-o-transition: all 800ms ease;
+	transition: all 800ms ease;
+}
+/*Center Title*/
+#Title {		
+	height:75px;
+	width:600px;
+	position: absolute;
+    margin:425px 0 0 657px;
+	font-size: 30px;
+	line-height: 90px;
+	text-align: center;
+	padding: 0px 0px 0px 0px;
+}
+/*Placement for individual blocks*/
+#Evangelion {
+	position:absolute;
+	margin: 50px 0px 0px 425px;
+}
+#Shinsekai-Yori {
+	position:absolute;
+	margin: 50px 0px 0px 1125px;
+}
+#Eureka-Seven {
+	position:absolute;
+	margin: 450px 0px 0px 200px;
+}
+#Higurashi {
+	position:absolute;
+	margin: 450px 0px 0px 1350px
+}
+#FLCL {
+	position:absolute;
+	margin: 650px 0px 0px 773px
+}
+/*Pictures for each block*/
+div img {			
+	position:relative;
+	z-index: 1;
+	height: 200px;
+	width: 356px;
+	border-radius: 50px;
+	border: 1px solid black;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+/*Text & text position for each block*/
+p:nth-child(2) {		
+	position:relative;
+    text-align:center;
+    z-index:2;
+    top:-100px;
+}
+a {
+	text-decoration: none;
+	color:black;
+	-webkit-transition: all 800ms ease;
+	-moz-transition: all 800ms ease;
+	-ms-transition: all 800ms ease;
+	-o-transition: all 800ms ease;
+	transition:  all 800ms ease;
+}
+/*Enlarges images when hovering over image link*/
+#Evangelion:hover img, #Higurashi:hover img {			
+	height: 300px;
+	width: 533px;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+#Shinsekai-Yori:hover img, #Eureka-Seven:hover img {			
+	height: 300px;
+	width: 533px;
+	Margin: 0px 0px 0px -179px;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+ #FLCL:hover img{			
+	height: 300px;
+	width: 533px;
+	Margin: -100px 0px 0px -87px;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+/*Makes text disappear when hover over image link*/
+#Evangelion:hover a , #Shinsekai-Yori:hover a, #Eureka-Seven:hover a, #Higurashi:hover a, #FLCL:hover a {			
+	color: transparent;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+/*Makes block disappear when hover over image link*/
+div:hover {
+	background-color: transparent;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+
+

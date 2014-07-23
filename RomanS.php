@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type = "text/css" rel = "stylesheet" href = "Roman.css"/>
+		<title>Roman's Anime Stash</title>
+	</head>
+	<body>
+		<img id = "Title" src = "http://i.imgur.com/2fkmrTK.png"/>
+		</div>
+		<div id = "Evangelion" class = "Block">
+			<a href = "SecondPage.html"><img src = "http://i.imgur.com/IbESrmg.jpg"/></a> 
+			<p><a href = "SecondPage.html">Evangelion</a></p>
+		</div>
+		<div id = "Shinsekai-Yori" class = "Block">
+			<a href = "SecondPage.html"><img src = "http://i.imgur.com/sVfwCEw.jpg"/></a> 
+			<p><a href = "SecondPage.html">Shinsekai Yori</a></p>
+		</div>
+		<div id = "Eureka-Seven" class = "Block">
+			<a href = "SecondPage.html"><img src = "http://i.imgur.com/M27825V.jpg"/></a> 
+			<p><a href = "SecondPage.html">Eureka Seven</a></p>
+		</div>
+		<div id = "Higurashi" class = "Block">
+			<a href = "SecondPage.html"><img src = "http://i.imgur.com/IBoyzdu.png"/></a> 
+			<p><a href = "SecondPage.html">Higurashi</a></p>
+		</div>
+		<div id = "FLCL" class = "Block">
+			<a href = "SecondPage.html"><img src = "http://i.imgur.com/UIlxpVt.png"/></a> 
+			<p><a href = "SecondPage.html">FLCL</a></p>
+		</div>
+	</body>
+</html>

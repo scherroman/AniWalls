@@ -1,4 +1,4 @@
 AniWalls
 ========
 
-A webpage with pretty wallpapers
+A webpage with some neat wallpapers
